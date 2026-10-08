@@ -38,7 +38,7 @@ fun ActivitasPertama(modifier: Modifier) {
             fontWeight = FontWeight.Bold
         )
         Text(
-            stringResource( id = R.string.univ),
+            stringResource( id = R.string.univ), // tambah header univ
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
