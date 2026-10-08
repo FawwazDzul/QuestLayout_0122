@@ -51,7 +51,7 @@ fun ActivitasPertama(modifier: Modifier) {
             )
         ) {
             Row() {
-                val gambar = painterResource( id = R.drawable.logo_umy)
+                val gambar = painterResource( id = R.drawable.logo_umy) //Menambahkan Logo umy
                 Image(
                     painter = gambar,
                     contentDescription = null,
