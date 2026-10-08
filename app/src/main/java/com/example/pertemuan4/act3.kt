@@ -41,7 +41,7 @@ fun ActivitasPertama(modifier: Modifier) {
             stringResource( id = R.string.univ), // tambah header univ
             fontSize = 22.sp
         )
-        Spacer(modifier = Modifier.height(25.dp)) // tambah card profil 
+        Spacer(modifier = Modifier.height(25.dp)) // tambah card profil
         Card(
             modifier = Modifier
                 .fillMaxWidth( fraction = 1f)
@@ -76,7 +76,7 @@ fun ActivitasPertama(modifier: Modifier) {
             }
         }
         Box(
-            modifier = Modifier
+            modifier = Modifier // text copyright
                 .fillMaxSize()
         ) {
             Text(
