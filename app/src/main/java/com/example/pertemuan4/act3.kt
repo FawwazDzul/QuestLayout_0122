@@ -41,7 +41,7 @@ fun ActivitasPertama(modifier: Modifier) {
             stringResource( id = R.string.univ), // tambah header univ
             fontSize = 22.sp
         )
-        Spacer(modifier = Modifier.height(25.dp))
+        Spacer(modifier = Modifier.height(25.dp)) // tambah card profil 
         Card(
             modifier = Modifier
                 .fillMaxWidth( fraction = 1f)
